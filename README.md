@@ -38,3 +38,8 @@
 
 ## 📄 Licencia
 Distribuido bajo licencia **MIT**. Creado por **Toba Torres**.
+
+
+---
+### ⚡ Desarrollo e Innovación
+Proyecto concebido y desarrollado por **Toba Torres (Creaciones13)** mediante desarrollo asistido de última generación con **Google Antigravity & Gemini**.
