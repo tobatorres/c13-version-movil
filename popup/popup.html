@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C13 Version Movil Responsividad</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo-badge">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+          <line x1="12" y1="18" x2="12.01" y2="18"></line>
+        </svg>
+      </div>
+      <div>
+        <h1>C13 Version Movil <span class="pro-pill">PRO</span></h1>
+        <p class="subtitle">Responsividad (como ver web en tu celular)</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="reload-ext-btn" class="icon-btn" title="Recargar extensión">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="23 4 23 10 17 10"></polyline>
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <button id="btn-launch-default" class="hero-btn">
+    <div class="hero-left">
+      <span class="hero-icon">📱</span>
+      <div>
+        <div class="hero-title">Abrir Versión Móvil aquí</div>
+        <div class="hero-sub">Con selector de +28 móviles, tablets y mockups</div>
+      </div>
+    </div>
+    <kbd class="shortcut">Alt+Shift+M</kbd>
+  </button>
+
+  <div class="section-label">ACCESO RÁPIDO A DISPOSITIVOS PRO</div>
+  <div class="quick-grid">
+    <button class="device-card" data-device="iphone-duo-closed">
+      <span class="dev-badge apple">IPHONE DUO 5.4"</span>
+      <span class="dev-name">iPhone DUO Cerrado</span>
+      <span class="dev-res">420 × 588 px (8.4×11.8cm)</span>
+    </button>
+    <button class="device-card" data-device="iphone-duo">
+      <span class="dev-badge tablet">IPHONE DUO 7.6"</span>
+      <span class="dev-name">iPhone DUO Abierto</span>
+      <span class="dev-res">824 × 588 px (16.5×11.8cm)</span>
+    </button>
+    <button class="device-card" data-device="iphone-16-pro">
+      <span class="dev-badge apple">Apple</span>
+      <span class="dev-name">iPhone 16 Pro</span>
+      <span class="dev-res">393 × 852 px</span>
+    </button>
+    <button class="device-card" data-device="galaxy-s25-ultra">
+      <span class="dev-badge android">Android</span>
+      <span class="dev-name">Galaxy S25 Ultra</span>
+      <span class="dev-res">412 × 915 px</span>
+    </button>
+    <button class="device-card" data-device="pixel-9-pro">
+      <span class="dev-badge android">Android</span>
+      <span class="dev-name">Google Pixel 9 Pro</span>
+      <span class="dev-res">412 × 892 px</span>
+    </button>
+    <button class="device-card" data-device="dual-mode">
+      <span class="dev-badge dual">2 en paralelo</span>
+      <span class="dev-name">Comparar 2 Móviles</span>
+      <span class="dev-res">Vista Doble Pro</span>
+    </button>
+  </div>
+
+  <div id="status-msg" class="status-banner hidden"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

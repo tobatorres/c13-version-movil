@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "C13 Version Movil Responsividad (como ver web en tu celular)",
+  "version": "1.0.0",
+  "description": "Simulador móvil (iPhone DUO, iPhone 17, Android, iPad) para ver webs en celular, responsividad y mockups PNG/MP4.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "C13 Version Movil Responsividad (como ver web en tu celular)",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background/service-worker.js"
+  },
+  "commands": {
+    "toggle-mobile-view": {
+      "suggested_key": {
+        "default": "Alt+Shift+M"
+      },
+      "description": "Activar o desactivar C13 Versión Móvil"
+    }
+  }
+}
